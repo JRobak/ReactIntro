@@ -1,0 +1,1 @@
+export const Dodaj = (props) => <span>{props.a} + {props.b} = {props.a+props.b} </span>;
