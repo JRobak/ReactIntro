@@ -1,1 +1,1 @@
-export const Dodaj = (props) => <span>{props.a} + {props.b} = {props.a+props.b} </span>;
+export const Dodaj = (props) => <span>{props.a} + {props.b} = {parseInt(props.a)+parseInt(props.b)} </span>;
